@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BACKLIT.IO</title>
+<style>
+        .cryptedmail:after {
+  content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
+}
+    </style>
+</head>
+<body>
+<a href="#" class="cryptedmail"
+   data-name="firasdarwish97"
+   data-domain="gmail"
+   data-tld="com"
+   onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"></a>
+</body>
+</html>
